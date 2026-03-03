@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h2 {
+            color: rgb(0, 0, 0);
+            font-family: Arial;
+        }
+        body {
+            background-color: rgb(99, 34, 34);
+            font-size: 20px
+        }
+        h1 {
+            background-color: black;
+            color: rgb(99, 34, 34);
+            font-family: Arial;
+        } /* podemos colocar style dentro de head para colocar o style em todos os h2 ou elementos selecionados*/
