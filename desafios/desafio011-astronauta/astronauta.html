@@ -6,13 +6,21 @@
     <title>Desafio 11</title>
     <style>
         body {
+            margin: 0;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: black url(imagens/espaco.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
-        div.png {
+        div.png > img {
             padding: 5px;
-            margin: auto;
+            margin: 20px auto;
+            display: block;
+            height: auto;
         }
 
     </style>
@@ -20,9 +28,8 @@
 </head>
 <body>
     <div class="png">
-        <picture>
             <img src="imagens/astronauta.png" alt="">
-        </picture>
+
     </div>
     
 </body>
