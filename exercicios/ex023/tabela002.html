@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+    TABLE
+    CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th style="width: 50px">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.084</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.366.563</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.564.134</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.453</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.437.716</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.182.635</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.056.625</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.018.243</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.414.232</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">4.418.534</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.414.157</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.506.145</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.504.568</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.286.564</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3.015.268</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.778.564</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.298.485</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.777.225</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.572.866</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">861.935</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">845.331</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">605.761</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
