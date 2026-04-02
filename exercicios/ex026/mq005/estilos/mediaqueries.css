@@ -4,47 +4,6 @@
 
 @media screen and (min-width: 768px) {
     main {
-        width: 800px;
-    }
-
-    #burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-    }
-
-    menu ul li {
-        display: inline-block;
-}
-
-menu a {
-    border-top: none;
-    border-radius: 5px;
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    main {
-        width: 900px;
-    }
-
-    #burguer {
-        display: none;
-    }
-
-    menu ul li {
-        display: inline-block;
-}
-
-menu a {
-    border-top: none;
-    border-radius: 5px;
-}
-}
-
-@media screen and (min-width: 1200px) {
-    main {
         width: 900px;
     }
 
@@ -64,4 +23,5 @@ menu a {
     border-top: none;
     border-radius: 5px;
 }
-} }
+}
+
